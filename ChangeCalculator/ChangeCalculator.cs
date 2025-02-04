@@ -38,6 +38,15 @@ public class changeCalculator
         Console.WriteLine($"Dimes: {dimes}");
 
         int nickels = ((remainingCents%10/5));
+        if (quarters == 1 || quarters == 3)
+        {
+            Console.WriteLine("Nickels :0");
+        }
+
+        else
+        {
+            Console.WriteLine($"Nickels: {nickels}");
+        }
         Console.WriteLine($"Nickels: {nickels}");
 
         int pennies = ((remainingCents%5)/1);
