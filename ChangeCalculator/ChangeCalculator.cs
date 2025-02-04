@@ -47,7 +47,7 @@ public class changeCalculator
         {
             Console.WriteLine($"Nickels: {nickels}");
         }
-        Console.WriteLine($"Nickels: {nickels}");
+       
 
         int pennies = ((remainingCents%5)/1);
         Console.WriteLine($"Pennies: {pennies}");
